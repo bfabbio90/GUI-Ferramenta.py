@@ -88,7 +88,7 @@ label_tipo_ocorrencia.grid(row=13, column=0, padx=10, pady=5, sticky='nswe', col
 combobox_selecionar = ttk.Combobox(values=lista_tipos, width=30)
 combobox_selecionar.grid(row=13, column=2, padx=20, pady=20, sticky='nswe', columnspan=2)
 
-botao_cadastrar_ocorrencia = tk.Button(text='Cadastrar Ocorrência', command=cadastro)
+botao_cadastrar_ocorrencia = tk.Button(text='Cadastrar', command=cadastro)
 botao_cadastrar_ocorrencia.grid(row=14, column=0, padx=10, pady=10, sticky='nswe', columnspan=4)
 janela.mainloop()
 
